@@ -1,35 +1,35 @@
 export const profile = {
   name: "Tushar Kumar",
-  role: "Computer Science Engineering Student",
+  role: "Java Developer | React.js Developer",
   university: "Quantum University, Roorkee",
-  email: "your.email@example.com",
-  github: "https://github.com/your-username",
-  linkedin: "https://www.linkedin.com/in/your-profile"
+  email:  "tusharkumar9121@gmail.com",
+  github: "https://github.com/tusharkumar74",
+  linkedin: "https://www.linkedin.com/in/tushar-kumar-8040922a5"
 };
 
 export const projects = [
   {
-    title: "AI Image Generator",
-    status: "Project",
-    description: "A web app that turns text prompts into images through an AI API, with support for generating four images in one request.",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    github: "#",
-    demo: "#"
+  title: "AI Image Generator",
+  status: "Project",
+  description: "Developed an AI-powered image generation web application that converts text prompts into images and generates up to four images per request.",
+  tech: ["HTML", "CSS", "JavaScript", "React.js", "AI API"],
+  github: "https://github.com/tusharkumar74/-Image-Generator-by-Prompt",
+  demo: "https://image-generator-by-prompt.vercel.app"
   },
   {
-    title: "Personal Portfolio Website",
-    status: "Project",
-    description: "A responsive portfolio for presenting projects, technical skills, and contact information in one place.",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    github: "#",
-    demo: "#"
+  title: "Personal Portfolio Website",
+  status: "Project",
+  description: "Designed and developed a responsive personal portfolio website to showcase my technical skills, projects, experience, and contact information.",
+  tech: ["HTML", "CSS", "JavaScript", "React.js"],
+  github:  "https://github.com/tusharkumar74/tushar-portfolio.git",
+  demo: "https://tushar-portfolio-bs535ho3j-tusharkumar74.vercel.app"
   },
   {
-    title: "Skill Sharing Platform",
-    status: "In Progress",
-    description: "An ongoing platform concept for discovering skills, connecting with other learners, and sharing knowledge.",
-    tech: ["React", "JavaScript", "CSS"],
-    github: "#",
-    demo: "#"
+  title: "Campus Skill Exchange Platform",
+  status: "In Progress",
+  description: "Developing a platform where students can share skills, connect with learners, and exchange knowledge using Java, JDBC, JavaScript, and MySQL.",
+  tech: ["Java", "JDBC", "JavaScript", "MySQL"],
+  github: "",
+  demo: ""
   }
 ];

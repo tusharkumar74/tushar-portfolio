@@ -78,11 +78,11 @@ function App() {
         <section className="hero section-pad" id="home">
           <div className="container hero-grid">
             <div className="hero-copy">
-              <div className="availability"><span className="availability-dot" /> Open to software development opportunities</div>
+              <div className="availability"><span className="availability-dot" />  "Open to Full-Time Roles & Internship Opportunities</div>
               <p className="eyebrow hero-eyebrow">HELLO, I'M</p>
               <h1>Tushar Kumar<span className="heading-period">.</span></h1>
-              <h2 className="hero-role">Computer Science Engineering Student <span>/</span> Aspiring Software Developer</h2>
-              <p className="hero-intro">I build web experiences and work on practical software development projects. I'm focused on strengthening my programming fundamentals and turning ideas into useful applications.</p>
+               <h2 className="hero-role">Java Developer <span>/</span> React.js Developer</h2>
+               <p className="hero-intro">I'm a Computer Science Engineering student at Quantum University, Roorkee, passionate about Java development, web technologies, and problem-solving. I enjoy building practical applications and continuously improving my technical skills.</p>
               <div className="hero-actions">
                 <a className="button button-primary" href="#projects">View my projects <ArrowDownRight size={17} /></a>
                 <a className="button button-secondary" href="#contact">Contact me <ArrowUpRight size={16} /></a>
@@ -130,9 +130,9 @@ function App() {
           <div className="container two-column">
             <SectionHeading eyebrow="01 / ABOUT" title={<>A little about <span>me.</span></>} />
             <div className="about-content">
-              <p className="about-lead">I'm a Computer Science Engineering student at Quantum University, Roorkee, working toward becoming a capable software developer.</p>
-              <p>I spend my time learning programming, practicing problem-solving, and building projects that help me apply what I learn. I'm especially interested in Java, web development, and how software can solve practical problems.</p>
-              <p>I'm looking for opportunities where I can contribute, learn from experienced developers, and improve by working on real-world problems.</p>
+              <p className="about-lead">I'm Tushar Kumar, a Computer Science Engineering student at Quantum University, Roorkee, currently pursuing my B.Tech degree with a strong interest in software development.</p>
+              <p>I have knowledge of Java, HTML, CSS, JavaScript, and React.js. I am interested in object-oriented programming, data structures, algorithms, and building responsive web applications. I enjoy learning new technologies and developing practical projects.</p>
+              <p>My goal is to become a skilled Java Developer and build efficient software applications. I am actively looking for internship opportunities where I can apply my knowledge, gain industry experience, and grow as a developer.</p>
               <a className="text-link" href="#contact">Let's connect <ArrowRight size={16} /></a>
             </div>
           </div>
@@ -142,10 +142,10 @@ function App() {
           <div className="container">
             <SectionHeading eyebrow="02 / TOOLKIT" title={<>Technical <span>skills.</span></>} description="The tools and concepts I'm learning and using in my projects." />
             <div className="skills-grid">
-              <article className="skill-card"><div className="skill-icon"><Code2 size={20} /></div><h3>Programming</h3><p>Writing logic and building a strong programming foundation.</p><div className="tag-list"><span className="tag">Java</span></div></article>
-              <article className="skill-card"><div className="skill-icon"><Laptop size={20} /></div><h3>Web Development</h3><p>Creating responsive interfaces and interactive web experiences.</p><div className="tag-list"><span className="tag">HTML</span><span className="tag">CSS</span><span className="tag">JavaScript</span><span className="tag">React</span></div></article>
-              <article className="skill-card"><div className="skill-icon"><Braces size={20} /></div><h3>Core Concepts</h3><p>Practicing problem-solving and understanding foundational concepts.</p><div className="tag-list"><span className="tag">Data Structures & Algorithms</span><span className="tag">OOP</span></div></article>
-              <article className="skill-card"><div className="skill-icon"><Database size={20} /></div><h3>Database</h3><p>Learning to query and work with structured data.</p><div className="tag-list"><span className="tag">SQL</span></div></article>
+              <article className="skill-card"><div className="skill-icon"><Code2 size={20} /></div><h3>Programming</h3><p>Developing problem-solving skills and writing efficient code using Java.</p><div className="tag-list"><span className="tag">Java</span></div></article>
+              <article className="skill-card"><div className="skill-icon"><Laptop size={20} /></div><h3>Web Development</h3><p>Building responsive and interactive web applications using modern web technologies.</p><div className="tag-list"><span className="tag">HTML</span><span className="tag">CSS</span><span className="tag">JavaScript</span><span className="tag">React.js</span></div></article>
+              <article className="skill-card"><div className="skill-icon"><Braces size={20} /></div><h3>Core Concepts</h3><p>Understanding object-oriented programming and practicing data structures and algorithms.</p><div className="tag-list"><span className="tag">Data Structures & Algorithms</span><span className="tag">OOP</span></div></article>
+              <article className="skill-card"><div className="skill-icon"><Database size={20} /></div><h3>Database</h3><p>Working with relational databases and managing data using SQL.</p><div className="tag-list"><span className="tag">SQL</span></div></article>
             </div>
           </div>
         </section>
@@ -159,7 +159,7 @@ function App() {
             <div className="projects-grid">
               {projects.map((project, index) => <ProjectCard project={project} index={index} key={project.title} />)}
             </div>
-            <p className="project-footnote"><span className="footnote-dot" /> Project links are placeholders. Replace them with your real repository and live demo URLs before publishing.</p>
+            <p className="project-footnote"><span className="footnote-dot" /> Explore the source code and live previews where available.</p>
           </div>
         </section>
 
@@ -169,10 +169,18 @@ function App() {
             <div className="timeline">
               <article className="timeline-item">
                 <span className="timeline-marker"><Laptop size={17} /></span>
-                <div className="timeline-meta"><span>INTERNSHIP</span><span>Dates: add details</span></div>
-                <h3>Internship — Techyvibe Technology</h3>
-                <p>Worked on an AI image-generation web project during an internship. Add your official role, dates, and verified responsibilities before publishing this section.</p>
-                <div className="tag-list"><span className="tag">HTML</span><span className="tag">CSS</span><span className="tag">JavaScript</span><span className="tag">React</span></div>
+                <div className="timeline-meta"><span>INTERNSHIP</span><span>25 June 2026 – 10 August 2026</span></div>
+                <h3>React.js Training & Internship — Codeware IT Pvt. Ltd.</h3>
+                <p>Completed React.js training and internship, gaining practical exposure to frontend development and building user interfaces.</p>
+                <a
+                  href= "https://codewareit.in/intern/tushar-kumar/certificate/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="certificate-link"
+                >
+                  View Certificate ↗
+                </a>
+                <div className="tag-list"><span className="tag">HTML</span><span className="tag">CSS</span><span className="tag">JavaScript</span><span className="tag">React.js</span></div>
               </article>
               <article className="timeline-item">
                 <span className="timeline-marker"><Lightbulb size={17} /></span>
@@ -187,14 +195,25 @@ function App() {
 
         <section className="section-pad section-border" id="education">
           <div className="container two-column">
-            <SectionHeading eyebrow="05 / EDUCATION" title={<>Academic <span>background.</span></>} />
+            <SectionHeading
+              eyebrow="05 / EDUCATION"
+              title={<>Academic <span>background.</span></>}
+            />
+
             <article className="education-card">
-              <div className="education-icon"><GraduationCap size={23} /></div>
+              <div className="education-icon">
+                <GraduationCap size={23} />
+              </div>
+
               <div className="education-content">
                 <span className="education-label">UNDERGRADUATE DEGREE</span>
                 <h3>B.Tech in Computer Science and Engineering</h3>
                 <p className="education-school">Quantum University, Roorkee</p>
-                <div className="education-details"><span>Graduation: <b>[Expected year]</b></span><span>CGPA: <b>[Add current CGPA]</b></span></div>
+
+                <div className="education-details">
+                  <span>Graduation: <b>2027</b></span>
+                  <span>CGPA: <b>7.0</b></span>
+                </div>
               </div>
             </article>
           </div>
@@ -202,17 +221,24 @@ function App() {
 
         <section className="section-pad section-border" id="activities">
           <div className="container activities-row">
-            <div><p className="eyebrow">06 / BEYOND THE SCREEN</p><h2>Always learning.<br /><span>Always exploring.</span></h2></div>
-            <div className="activities-copy"><p>Outside coursework, I enjoy cricket and exploring ideas around software, AI, and web development.</p><p>Add verified hackathons, coding profiles, volunteering, or other achievements here when you have details to share.</p></div>
+            <div>
+              <p className="eyebrow">06 / BEYOND THE SCREEN</p>
+              <h2>Always learning.<br /><span>Always exploring.</span></h2>
+            </div>
+            <div className="activities-copy">
+              <p>Outside coursework, I enjoy cricket and exploring ideas around software, AI, and web development.</p>
+              <p>Helped organize hackathons at Quantum University through the CodeX Club.</p>
+            </div>
           </div>
         </section>
 
+         
         <section className="section-pad contact-section" id="contact">
           <div className="container contact-grid">
             <div className="contact-copy">
               <p className="eyebrow">07 / GET IN TOUCH</p>
               <h2>Have a project<br />or opportunity<span>?</span></h2>
-              <p>I'm interested in software development internships, collaborative projects, and conversations about building useful things.</p>
+              <p>I'm open to Java Developer internships, software development opportunities, and collaborative projects where I can learn and contribute.</p>
               <a className="contact-email" href={`mailto:${profile.email}`}><Mail size={18} /> {profile.email} <ArrowUpRight size={16} /></a>
               <div className="contact-socials">
                 <SocialLink href={profile.github} label="GitHub"><Github size={17} /></SocialLink>
@@ -232,7 +258,7 @@ function App() {
           </nav>
           <a className="back-top" href="#home">Back to top <ArrowUpRight size={15} /></a>
         </div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} Tushar Kumar. All rights reserved.</span><span>Designed and built with React.</span></div>
+        <div className="container footer-bottom"><span>© {new Date().getFullYear()} Tushar Kumar. All rights reserved.</span><span>Designed and developed by Tushar Kumar with React.js.</span></div>
       </footer>
     </div>
   );
